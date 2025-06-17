@@ -25,7 +25,7 @@ notes.classList.add("input");
 notes.placeholder="...";
  notes.value=text;
 
-//save to ls on every input
+//save to local storage on every input
 notes.addEventListener("input",saveNotes);
 
 //create delete btn
